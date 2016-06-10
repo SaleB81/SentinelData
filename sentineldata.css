@@ -1,0 +1,92 @@
+body {
+  background-color: #909090;
+
+}
+.table {
+  border: 0px solid black;
+  background-color: #909090;
+}
+.table th{
+  border-radius: 10px;
+  color: black;
+  background-color: #C0C0C0;
+  font-weight: bold;
+  font-family: monospace;
+  text-transform: uppercase;
+  
+  
+}
+.table td:nth-child(1), td:nth-child(2) {
+  background-color: lightblue;
+  border-radius: 10px;
+  padding-left: 10px;
+  color: black;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.table tr th:nth-child(1) {
+  width: 220px;
+    
+}
+.table tr th:nth-child(2) {
+  width: 230px;
+    
+}
+.table tr th:nth-child(3) {
+  width: 60px;
+  
+}
+.table tr th:nth-child(4) {
+  width: 60px;
+    
+}
+.header {
+  background-color: #909090;
+  font-family: monospace;
+
+}
+.header th {
+  background-color: #C0C0C0 ;
+  border-radius: 10px;
+  
+
+}
+.header th:nth-child(1){
+  width: 80px;
+  text-align: center;
+}
+.header th:nth-child(2){
+  width: 100px;
+  text-align: center;
+}
+.header th:nth-child(3){
+  width: 190px;
+  text-align: center;
+}
+.header th:nth-child(4){
+  width: 200px;
+  text-align: center;
+}
+#temp {
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10px;
+  font-family: monospace;
+}
+#health {
+  
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10px;
+  font-family: monospace;
+}
+.green {
+  background-color: #33CC00;
+}
+.yellow {
+  background-color: yellow;
+}
+.red {
+  background-color: red;
+}
