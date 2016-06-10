@@ -21,18 +21,22 @@ follow the temperatures and see when the time comes to clean the air filters.
 
 The whole project consists of only four files:
 
-sentineldata.php
+```sentineldata.php
+```
 this is the main file; the uploaded version is inteded for two machines, but it can be easily extended by adding a new 
-$url3, $rezultat3 variables and a new <table class="table"> block with appropriate $rezultat number in all the $rezultat
-instances; it may be extended for as many computers as you like. 
+`$url3`, `$rezultat3` variables and a new `<table class="table">` block with appropriate `$rezultat` number in all the 
+`$rezultat` instances; it may be extended for as many computers as you like. 
 
-sentineldata.css 
+```sentineldata.css
+```
 contains visual elements to define sentineldata.php
 
-sentinel_functions.php
+```sentinel_functions.php
+```
 contains functions to parse the Hard Disk Sentinel v4.40 served file; it arranges data in a php array
 
-sentinel_visual_functions.php
+```sentinel_visual_functions.php
+```
 contains helper functions for data visualization
 
 There are plans to extend the application with visualisations for relevant temeratures and fan speeds for all the machines 
