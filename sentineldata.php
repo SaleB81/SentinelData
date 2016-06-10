@@ -4,8 +4,8 @@
     require ("sentinel_visual_functions.php");
 	    //a URL you want to retrieve
 		header('Refresh: 60'); 
-    	$url1 = 'http://192.168.0.3:61220';
-    	$url2 = 'http://192.168.0.5:61220';
+    	$url1 = 'http://192.168.0.2:61220';
+    	$url2 = 'http://192.168.0.3:61220';
  		$rezultat1 = sentinel_data($url1);
  		$rezultat2 = sentinel_data($url2);
 		$parametri = array("", "", "Uptime: ", "Time: ");	
